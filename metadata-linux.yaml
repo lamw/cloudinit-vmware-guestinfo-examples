@@ -1,0 +1,15 @@
+instance-id: 6ba65654-154b-4dfb-830d-d20fec8a1f4d
+local-hostname: rocky-9-01
+hostname: rocky-9-01
+network:
+  version: 2
+  ethernets:
+    ens192:
+      match:
+        macaddress: 00:50:56:a9:04:46
+      addresses:
+      - 192.168.30.199/24
+      gateway4: 192.168.30.1
+      nameservers:
+        addresses:
+        - 192.168.30.2

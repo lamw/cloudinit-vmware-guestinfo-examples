@@ -1,0 +1,10 @@
+instance-id: 6ba65654-154b-4dfb-830d-d20fec8a1f4e
+local-hostname: winsvr2019-nogui-01
+hostname: winsvr2019-nogui-01
+network:
+  version: 2
+  ethernets:
+    nics:
+      match:
+        macaddress: 00:50:56:a9:fb:06
+      dhcp4: yes
